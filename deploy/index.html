@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Account Management</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Bank Account Management</h1>
+
+    <div id="input-container">
+        <input type="number" id="amount" placeholder="Amount">
+    </div>
+
+    <div id="buttons">
+        <button onclick="handleUserAction('deposit')">Deposit</button>
+        <button onclick="handleUserAction('withdraw')">Withdraw</button>
+        <button onclick="handleUserAction('balance')">Check Balance</button>
+    </div>
+
+    <div id="result-container">
+        <p id="result"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

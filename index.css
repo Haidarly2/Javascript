@@ -1,0 +1,104 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: contents;
+    justify-content: center;
+}
+
+h1 {
+    color: #333;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 2px solid #007bff;
+    margin: 0;
+    font-size: 24px;    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#bank-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+#buttons {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#input-container {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 20%;
+    box-sizing: border-box;
+    ::placeholder {
+        font-size: 14px; /* Adjust the placeholder font size */
+    }
+}
+
+#result-container {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+#error-message {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+#account-info {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+}
+
+#account-info p {
+    margin: 5px 0;
+}
+
+#account-info hr {
+    border: none;
+    border-top: 1px dashed #ccc;
+    margin: 10px 0;
+}
+
+#footer {
+    font-size: 14px;
+    color: #999;
+    margin-top: 20px;
+}
